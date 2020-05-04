@@ -93,7 +93,6 @@ class RpiInfo(MycroftSkill):
             memory_num , memory_perc = ram("free")
         
             self.speak_dialog('memory_free',{'number': memory_num ,'number_perc': memory_perc })
-            #self.speak_dialog('hello')
         except:
             self.speak.dialog('error')
     
@@ -113,9 +112,9 @@ class RpiInfo(MycroftSkill):
     #TEMPERATURE HANDLER        
     @intent_handler('temperature.intent')
     def handle_temp(self, message):
-        a , b = temp()
+        temp_var , scale_var = temp()
         try:
-            self.speak_dialog('temperature',{'temp':a , 'scale':b})
+            self.speak_dialog('temperature',{'temp':temp_var , 'scale':scale_var})
 
         except:
             self.speak.dialog('error')
@@ -124,9 +123,9 @@ class RpiInfo(MycroftSkill):
     #DISK HANDLER
     @intent_handler('disk.intent')
     def handle_disk(self, message):
-        used , free , sc = disk()
+        usage_var , memory_var , scale_var = disk()
         try:
-            self.speak_dialog('disk',{'usage':used , 'memory':free , 'scale': sc})
+            self.speak_dialog('disk',{'usage':usage_var , 'memory':memory_var , 'scale': scale_var})
         except:
             self.speak.dialog('error')
     

@@ -5,10 +5,23 @@ Rpi-info gives disk , ram , temperature information about your raspberry pi.
 
 
 ## Examples
-* "Raspberry free memory"
-* "Raspberry used memory"
+
+#FREE RAM COMMANDS
+* "Raspberry free ram"
+* "Raspberry pi free ram"
+* "(What is the |) free ram of (my|) (raspberry|) pi"
+
+#USAGE OF RAM COMMANDS
+* "Raspberry used ram"
+* "Raspberry pi used ram"
+* "(What is the|) ram usage of (my|) (raspberry|) pi"
+#DISK USAGE COMMAND
 * "Raspberry disk"
+
+#TEMPERATURE COMMANDS
 * "Raspberry temperature"
+* "Raspberry pi temperature"
+* "(what is the|) temperature of (my|) (raspberry|) pi
 
 ## Credits
 Kourlos Dimitris

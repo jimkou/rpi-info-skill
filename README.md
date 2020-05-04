@@ -15,6 +15,7 @@ Rpi-info gives disk , ram , temperature information about your raspberry pi.
 * "Raspberry used ram"
 * "Raspberry pi used ram"
 * "(What is the|) ram usage of (my|) (raspberry|) pi"
+
 #DISK USAGE COMMAND
 * "Raspberry disk"
 

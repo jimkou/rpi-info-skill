@@ -71,7 +71,7 @@ def disk():
     
     
     
-class Rpi-Info(MycroftSkill):
+class RpiInfo(MycroftSkill):
     
     def __init__(self):
         super().__init__()
@@ -136,7 +136,7 @@ class Rpi-Info(MycroftSkill):
     
     
 def create_skill():
-    return Rpi-Info()
+    return RpiInfo()
 
 
 

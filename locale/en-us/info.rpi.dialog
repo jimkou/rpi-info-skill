@@ -1,4 +1,0 @@
-Free ram is {number} megabytes , which is  {number_perc} percent
-Used ram is {number} megabytes, which is {number_perc} percent
-Raspberry pi temperature is {temp} {scale}
-Disk usage is  {usage} percent. free disk memory is {memory} {scale}
